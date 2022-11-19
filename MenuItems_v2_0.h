@@ -1,0 +1,1 @@
+#define _NUM_OF_MENUS_MAIN 3

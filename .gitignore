@@ -28,6 +28,10 @@
 *.so.*
 *.dylib
 
+# Compiled object files
+*.o
+*.O
+
 # Executables
 *.exe
 *.out
@@ -36,11 +40,17 @@
 *.x86_64
 *.hex
 
+# Mplab project files
+*.cof
+*.map 
+*.lst
+
 # Debug files
 *.dSYM/
 *.su
 *.idb
 *.pdb
+*.err
 
 # Kernel Module Compile Results
 *.mod*
@@ -50,3 +60,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+
+
