@@ -15,9 +15,9 @@ void InitSpeedTimers()
 	CCPInterrupt=0; 
 	CCP2CON=0x04;  //b0000 0100 Capture mode, capture occures at every falling edge.
 	CCPTMRS0=0x08; //0000 1000
-//	CCPTMRS0=0x0B; //b0000 1011. CCP2 uses Timer3
-//	PIE1=0x00;	 	
-
+	CCPTMRS0=0x0B; //b0000 1011. CCP2 uses Timer3
+	PIE1=0x00;	 	
+// asd
 	PIE2bits.TMR3IE=1;
 	IPR2bits.CCP2IP=1;
 	IPR2bits.TMR3IP=1;	//high prio interrupt
